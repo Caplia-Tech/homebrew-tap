@@ -20,10 +20,13 @@ brew install caplia
 | Formula | Description |
 |---------|-------------|
 | `caplia` | Caplia on the command line, built for AI agents and humans alike. Source: [Caplia-Tech/caplia-cli](https://github.com/Caplia-Tech/caplia-cli) |
-| `phronel` | Phronel on the command line: run a company, get the decision back. Source: [Caplia-Tech/caplia-phronel](https://github.com/Caplia-Tech/caplia-phronel) (`cli/`) |
+| `phronel` | Phronel on the command line: run a company, get the decision back. Source: [Caplia-Tech/phronel-cli](https://github.com/Caplia-Tech/phronel-cli) |
 
 Also available via npm: `npm install -g caplia` (or `npx caplia`) and `npm install -g phronel` (or `npx phronel`).
 
 ```bash
-brew install caplia-tech/tap/phronel
+brew tap caplia-tech/tap
+brew install phronel
 ```
+
+Or in one line: `brew install caplia-tech/tap/phronel`.
